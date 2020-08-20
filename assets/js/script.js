@@ -28,3 +28,4 @@ var Dental = [
 ]
 
 document.write(`<p>Cantidad de Atenciones para Radiología: ${Radiologia.length}</p>`);
+document.write(`<p>Cantidad de Atenciones para Traumatología: ${Traumatologia.length}</p>`);
