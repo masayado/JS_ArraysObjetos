@@ -1,4 +1,6 @@
-document.write('<h1>Estadisticas Centro Medico Ñuñoa</h1>');
+document.write('<h1>Estadisticas Centro Medico Ñuñoa</h1><br>');
+
+//Variables y sus respectivos array de objetos
 
 var Radiologia = [
     {hora:"11:00", especialista:"IGNACIO SCHULZ", paciente:"FRANCISCA ROJAS", rut:"9.878.782-1", prevision:"FONASA"},
@@ -27,6 +29,17 @@ var Dental = [
     {hora:"14:00", especialista:"RAQUEL VILLASECA", paciente:"ANA SEPULVEDA", rut:"14.441.281-0", prevision:"ISAPRE"}
 ]
 
+//Cantidad de atenciones
+
+document.write('<h2>Cantidad de Atenciones</h2>');
+
 document.write(`<p>Cantidad de Atenciones para Radiología: ${Radiologia.length}</p>`);
 document.write(`<p>Cantidad de Atenciones para Traumatología: ${Traumatologia.length}</p>`);
 document.write(`<p>Cantidad de Atenciones para Dental: ${Dental.length}</p><br>`);
+
+//Primeras y ultimas atenciones
+
+document.write('<h2>Primeras y ultimas atenciones</h2>');
+document.write('<p><b>Radiología</b></p>');
+
+document.write(`<p>Primera atención: ${Radiologia[0].paciente} - Rut: ${Radiologia[0].rut} - Previsión: ${Radiologia[0].prevision} <b>|</b> Ultima atención: ${Radiologia[4].paciente} - Rut: ${Radiologia[4].rut} - Previsión: ${Radiologia[4].prevision}</p>`)
