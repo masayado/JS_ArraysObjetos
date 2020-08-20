@@ -1,4 +1,4 @@
-document.write('<p>Estadisticas Centro Medico Ñuñoa</p>');
+document.write('<h1>Estadisticas Centro Medico Ñuñoa</h1>');
 
 var Radiologia = [
     {hora:"11:00", especialista:"IGNACIO SCHULZ", paciente:"FRANCISCA ROJAS", rut:"9.878.782-1", prevision:"FONASA"},
@@ -27,3 +27,4 @@ var Dental = [
     {hora:"14:00", especialista:"RAQUEL VILLASECA", paciente:"ANA SEPULVEDA", rut:"14.441.281-0", prevision:"ISAPRE"}
 ]
 
+document.write(`<p>Cantidad de Atenciones para Radiología: ${Radiologia.length}</p>`);
