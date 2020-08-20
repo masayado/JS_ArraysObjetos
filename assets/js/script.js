@@ -43,3 +43,11 @@ document.write('<h2>Primeras y ultimas atenciones</h2>');
 document.write('<p><b>Radiología</b></p>');
 
 document.write(`<p>Primera atención: ${Radiologia[0].paciente} - Rut: ${Radiologia[0].rut} - Previsión: ${Radiologia[0].prevision} <b>|</b> Ultima atención: ${Radiologia[4].paciente} - Rut: ${Radiologia[4].rut} - Previsión: ${Radiologia[4].prevision}</p>`)
+
+document.write('<p><b>Traumatología</b></p>');
+
+document.write(`<p>Primera atención: ${Traumatologia[0].paciente} - Rut: ${Traumatologia[0].rut} - Previsión: ${Traumatologia[0].prevision} <b>|</b> Ultima atención: ${Traumatologia[6].paciente} - Rut: ${Traumatologia[6].rut} - Previsión: ${Traumatologia[6].prevision}</p>`)
+
+document.write('<p><b>Dental</b></p>');
+
+document.write(`<p>Primera atención: ${Dental[0].paciente} - Rut: ${Dental[0].rut} - Previsión: ${Dental[0].prevision} <b>|</b> Ultima atención: ${Dental[5].paciente} - Rut: ${Dental[5].rut} - Previsión: ${Dental[5].prevision}</p>`)
