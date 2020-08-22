@@ -1,4 +1,4 @@
-document.write('<h1>Estadisticas Centro Medico Ñuñoa</h1>');
+document.write('<h2>Estadisticas Centro Medico Ñuñoa</h2>');
 
 //Variables y sus respectivos array de objetos
 
@@ -31,7 +31,7 @@ var Dental = [
 
 //Cantidad de atenciones
 
-document.write('<h2>Cantidad de Atenciones</h2>');
+document.write('<h4>Cantidad de atenciones</h4>');
 
 document.write(`<p>Cantidad de Atenciones para Radiología: ${Radiologia.length}</p>`);
 document.write(`<p>Cantidad de Atenciones para Traumatología: ${Traumatologia.length}</p>`);
@@ -39,13 +39,13 @@ document.write(`<p>Cantidad de Atenciones para Dental: ${Dental.length}</p>`);
 
 //Primeras y ultimas atenciones
 
-document.write('<h2>Primeras y ultimas atenciones</h2>');
+document.write('<h4>Primeras y últimas atenciones</h4>');
 
-document.write('<p><b>Radiología</b></p>');
+document.write('<b>Radiología</b>');
 document.write(`<p>Primera atención: ${Radiologia[0].paciente} - Rut: ${Radiologia[0].rut} - Previsión: ${Radiologia[0].prevision} <b>|</b> Ultima atención: ${Radiologia[4].paciente} - Rut: ${Radiologia[4].rut} - Previsión: ${Radiologia[4].prevision}</p>`)
 
-document.write('<p><b>Traumatología</b></p>');
+document.write('<b>Traumatología</b>');
 document.write(`<p>Primera atención: ${Traumatologia[0].paciente} - Rut: ${Traumatologia[0].rut} - Previsión: ${Traumatologia[0].prevision} <b>|</b> Ultima atención: ${Traumatologia[6].paciente} - Rut: ${Traumatologia[6].rut} - Previsión: ${Traumatologia[6].prevision}</p>`)
 
-document.write('<p><b>Dental</b></p>');
+document.write('<b>Dental</b>');
 document.write(`<p>Primera atención: ${Dental[0].paciente} - Rut: ${Dental[0].rut} - Previsión: ${Dental[0].prevision} <b>|</b> Ultima atención: ${Dental[5].paciente} - Rut: ${Dental[5].rut} - Previsión: ${Dental[5].prevision}</p>`)
